@@ -119,7 +119,7 @@ You should make your git commits from your maigret git repo folder, or else the 
 
 ## Demo with page parsing and recursive username search
 
-[PDF report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.pdf), [HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.html)
+[PDF report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.pdf), [HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.html), [Xmind8 report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.xmind)
 
 ![animation of recursive search](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/recursive_search.gif)
 
