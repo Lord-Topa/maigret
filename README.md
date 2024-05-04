@@ -94,12 +94,16 @@ docker build -t maigret .
 changed formatting due to inability for software to due more than one output type per username
 -->
 ```bash
-# make HTML and PDF reports
+# make HTML, PDF, and Xmind8 reports
 maigret user --html
 maigret user --pdf
+maigret user --xmind #Output not compatible with xmind 2022+
 
 # search on sites marked with tags photo & dating
 maigret user --tags photo,dating
+
+# search on sites marked with tag us
+maigret user --tags us
 
 # search for three usernames on all available sites
 maigret user1 user2 user3 -a
@@ -115,16 +119,17 @@ You should make your git commits from your maigret git repo folder, or else the 
 
 ## Demo with page parsing and recursive username search
 
-[Legacy PDF report](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotographycars.pdf), [Legacy HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotographycars.html)
+[PDF report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.pdf), [HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.html)
 
 ![animation of recursive search](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/recursive_search.gif)
 
 ![HTML report screenshot](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotography_html_screenshot.png)
 
 <!---
-xmind 8 screenshot removed due to its generating corrupted files, replaced with a pdf preview image
+xmind 8 screenshot moved due to its generating corrupted files, replaced with a pdf preview image
 -->
 ![PDF report screenshot](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotography_pdf_screenshot.png)
+![Xmind report screenshot](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotography_xmind_screenshot.png)
 
 
 <!---
