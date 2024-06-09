@@ -92,9 +92,7 @@ docker build -t maigret .
 ```
 
 ## Usage examples
-<!---
-changed formatting due to inability for software to due more than one output type per username
--->
+
 ```bash
 # make HTML, PDF, and Xmind8 reports
 maigret user --html
@@ -121,23 +119,15 @@ You should make your git commits from your maigret git repo folder, or else the 
 
 ## Demo with page parsing and recursive username search
 
-[PDF report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.pdf), [HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.html), [Xmind8 report](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotographycars.xmind)
 
-![animation of recursive search](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/recursive_search.gif)
+[PDF report](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotographycars.pdf), [HTML report](https://htmlpreview.github.io/?https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotographycars.html)
 
-![HTML report screenshot](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotography_html_screenshot.png)
+![animation of recursive search](https://raw.githubusercontent.com/soxoj/maigret/main/static/recursive_search.svg)
 
-<!---
-xmind 8 screenshot moved due to its generating corrupted files, replaced with a pdf preview image
--->
-![PDF report screenshot](https://raw.githubusercontent.com/Lord-Topa/maigret/main/static/report_alexaimephotography_pdf_screenshot.png)
-![Xmind report screenshot](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotography_xmind_screenshot.png)
+![HTML report screenshot](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotography_html_screenshot.png)
 
+![XMind 8 report screenshot](https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotography_xmind_screenshot.png)
 
-<!---
-remained the same as command remained same output just changed 
-due to time
--->
 [Full console output](https://raw.githubusercontent.com/soxoj/maigret/main/static/recursive_search.md)
 
 ### SOWEL classification
